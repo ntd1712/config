@@ -1,0 +1,31 @@
+{
+  "name": "chaos/config",
+  "description": "Adapter to use Vars in Laravel, more frameworks to come soon",
+  "keywords": [
+    "vietnam",
+    "vars",
+    "adapter"
+  ],
+  "homepage": "https://github.com/ntd1712",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ntd1712",
+      "email": "ntd1712@mail.com"
+    }
+  ],
+  "require": {
+    "symfony/yaml": "~2.8 | ^5.1.4",
+    "m1/vars": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chaos\\Support\\Config\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
